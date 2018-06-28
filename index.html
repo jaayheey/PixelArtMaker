@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pixel Art Maker! - Team 167 :)</title>
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/uikit.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+    <h1>Lab: Pixel Art Maker</h1>
+
+    <div class="uk-text-center" uk-grid>
+        <div class="uk-width-auto">
+            <div class="uk-card uk-card-default uk-card-body uk-background-muted">
+                <p class="uk-text-bold">Choose Grid Size</p>
+                 <form id="sizePicker">
+                    Grid Height:
+                    <input type="number" id="inputHeight" class="uk-input" name="height" min="1" value="1">
+                    Grid Width:
+                    <input type="number" id="inputWidth" class="uk-input" name="width" min="1" value="1">
+                    <input type="submit" id="inputSubmit" value="CREATE GRID" class="uk-button uk-button-primary">
+                </form>
+
+                <p class="uk-text-bold">Select A Color</p>
+                <input type="color" id="colorPicker" class="uk-select">
+            </div>
+        </div>
+            
+    </div>
+    
+
+    <h1>Design Canvas</h1>
+    <table id="pixelCanvas"></table>
+
+    <script src="script/designs.js"></script>
+</body>
+</html>
