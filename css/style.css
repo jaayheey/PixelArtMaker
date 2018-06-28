@@ -29,7 +29,7 @@ td {
     width: 20px;
 }
 
-input[type=number] {
+.uk-input {
     width: 6em;
     margin-right: 10px;
 }

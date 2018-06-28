@@ -1,2 +1,7 @@
 # PixelArtMaker
-Pixel Make r- Andela/Udacity Project
+Pixel Maker- Andela/Udacity Final Project for Scolarship posibility (Frontend Track). 
+
+## URL
+https://jaayheey.github.io/PixelArtMaker/
+
+#7DaysofCodeChallenge
